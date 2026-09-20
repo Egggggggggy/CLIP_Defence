@@ -1,0 +1,1 @@
+"""CLIP defense package."""
