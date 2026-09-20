@@ -5,17 +5,17 @@ channels:
   - conda-forge
 dependencies:
   - python=3.11
-  - pytorch=2.4.1
-  - torchvision=0.19.1
-  - torchaudio=2.4.1
-  - pytorch-cuda=12.1
+  - pytorch=2.6.0
+  - torchvision=0.21.0
+  - torchaudio=2.6.0
+  - pytorch-cuda=12.4
   - pip
   - pip:
-      - transformers==4.45.2
+      - transformers==5.10.0
       - accelerate==0.34.2
       - tqdm==4.66.5
       - numpy==2.1.1
-      - pillow==10.4.0
+      - pillow==12.3.0
       - matplotlib==3.9.2
       - scikit-learn==1.5.2
       - pyyaml==6.0.2

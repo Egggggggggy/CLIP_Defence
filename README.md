@@ -49,9 +49,9 @@ Why suitable for CLIP:
 
 - OS: Windows 11 (native, no WSL2)
 - Python: 3.11
-- PyTorch: 2.4.1
-- Transformers: 4.45.2
-- CUDA: 12.1 compatible build (if GPU used)
+- PyTorch: 2.6.0
+- Transformers: 5.10.0
+- CUDA: 12.4 compatible build (if GPU used)
 - GPU recommendation: NVIDIA GPU with >= 8GB VRAM (4GB minimum for smaller batch)
 - CPU fallback: supported, slower
 - Dataset: CIFAR-10 auto-download via torchvision (or adapt loader for ImageNet subset)
